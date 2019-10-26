@@ -1,4 +1,3 @@
-<script>
 (function (g, j) {
     "function" == typeof define && define.amd ? define([], function () {
         return j(g)
@@ -1095,4 +1094,3 @@
 })(window, document);
 
 
-</script>
