@@ -32,7 +32,7 @@
         return null !== P
     }, j.ifNil = function (P) {
         return j.ifUndefined(P) && j.ifNull(P)
-    }, j.isElement = function (P) {
+    }, j.isElement = function (P) { 
         return "object" == typeof HTMLElement ? P instanceof HTMLElement : P && "object" == typeof P && 1 === P.nodeType && "string" == typeof P.nodeName
     }, j.isNode = function (P) {
         return "object" == typeof Node ? P instanceof Node : P && "object" == typeof P && "number" == typeof P.nodeType && "string" == typeof P.nodeName
